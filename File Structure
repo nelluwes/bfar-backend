@@ -1,0 +1,42 @@
+bfar-backend/
+│
+├── logs/
+│
+├── node_modules/
+│
+├── src/
+│   │
+│   ├── config/
+│   │   └── firebase.js
+│   │
+│   ├── controllers/
+│   │   └── auth/
+│   │       ├── login.js
+│   │       ├── register.js
+│   │       └── verify_account.js
+│   │
+│   ├── routes/
+│   │   ├── auth.routes.js
+│   │   └── index.js
+│   │
+│   ├── middleware/
+│   │   └── auth.middleware.js
+│   │   
+│   ├── services/
+│   │   
+│   ├── validators/
+│   │
+│   ├── utils/
+│   │   └── token.util.js
+│   │
+│   ├── data/
+│   │
+│   └── tests/
+│
+├── .env
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+├── server.js
+└── serviceAccountKey.json
